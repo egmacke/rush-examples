@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.76.1",
+  "pnpmVersion": "6.34.0",
+  "pnpmOptions": {
+    "useWorkspaces": true,
+    "resolutionStrategy": "fast"
+  },
+  "nodeSupportedVersionRange": "14.17.3 || >=16.0.0 <17.0.0",
+  "gitPolicy": {},
+  "repository": {
+    "url": "https://github.com/SynapLearning/synap.git"
+  },
+  "projectFolderMaxDepth": 3,
+  "eventHooks": {
+    "preRushInstall": [],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": []
+  },
+  "projects": [
+    {
+      "packageName": "casljs-esm-node16",
+      "projectFolder": "casljs-esm-node16"
+    }
+  ],
+  "ensureConsistentVersions": true
+}
