@@ -6,7 +6,7 @@
     "useWorkspaces": true,
     "resolutionStrategy": "fast"
   },
-  "nodeSupportedVersionRange": "14.17.3 || >=16.0.0 <17.0.0",
+  "nodeSupportedVersionRange": ">=17.0.0",
   "gitPolicy": {},
   "repository": {
     "url": "https://github.com/SynapLearning/synap.git"
@@ -22,6 +22,14 @@
     {
       "packageName": "casljs-esm-node16",
       "projectFolder": "casljs-esm-node16"
+    },
+    {
+      "packageName": "commonjs-performance",
+      "projectFolder": "commonjs-performance"
+    },
+    {
+      "packageName": "esm-performance",
+      "projectFolder": "esm-performance"
     }
   ],
   "ensureConsistentVersions": true
